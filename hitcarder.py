@@ -125,8 +125,8 @@ class HitCarder(object):
         new_info = def_info.copy()
         new_info.update(magic_code_group)
         # form change
-#         new_info['szgjcs'] = ""
-#         new_info['zgfx14rfhsj'] = ""
+        new_info['szgjcs'] = ""
+        new_info['zgfx14rfhsj'] = ""
         new_info['geo_api_info'] = old_info['geo_api_info'] # 定位
         new_info['address'] = old_info['address']
         new_info['area'] = old_info['area']
