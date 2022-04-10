@@ -168,7 +168,7 @@
             <div><textarea v-model="info.remark" name="remark" rows="" cols="" placeholder=""></textarea></div>
         </div>
     </li>
-    <li>
+   <!-- <li>
         <div name="campus" class="radio"><span>所在校区 Campus<i class="icon iconfont icon-shuoming"></i><em></em></span>
             <div>
                 <div @click="info.campus=2"><span :class="{active: info.campus==2}"><i></i></span> <span>紫金港校区</span></div>
@@ -184,7 +184,7 @@
                 <div @click="info.campus=1"><span :class="{active: info.campus==1}"><i></i></span> <span>其他</span></div>
             </div>
         </div>
-    </li>
+    </li>-->
     <li>
         <div name="sfsqhzjkk" class="radio"><span>是否已经申领校区所在地健康码？Have you got the health code of the city where the
                 campus is located？<i class="icon iconfont icon-shuoming"></i><em></em></span>
